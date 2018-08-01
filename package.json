@@ -1,0 +1,17 @@
+{
+  "name": "posenet-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run watch & electron ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.6",
+    "typescript": "^3.0.1"
+  }
+}
